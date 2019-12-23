@@ -9,6 +9,7 @@ Citizen.CreateThread(function()
     if Config.Command then
         RegisterCommand(Config.Command, function()
             TriggerEvent('esx_policedog:openMenu')
+                    ESX.ShowNotification("Script Fivemturk.com'da UCRETSIZ olarak paylasilmistir.")
         end)
     end
     while true do
